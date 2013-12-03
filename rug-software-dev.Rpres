@@ -13,7 +13,7 @@ author: Jeff Allen
 date: December 7, 2013
 transition: rotate
 
-## test
+### https://github.com/trestletech/rug-software-dev
 
 Quick Poll
 ==========
@@ -37,6 +37,24 @@ Revision Control Motivation
 <span class="indent">Might be some publication from years ago.</span>
 
 ### "I found a bug in your code and fixed it."
+
+Revision Control
+================
+
+- Track changes to a set of files ("commits") over time with custom granularity
+- Record messages alongside each commit to record what you did
+- Revert any file -- or the whole set -- back to any point in the project's history 
+- Maintain multiple versions ("branches") in parallel in one location ("repository")
+- Collaborate by contributing your changes ("commits") to a central server.
+
+Revision Control
+================
+
+![original file](images/pia.png)
+12/1/2013
+***
+![modified file](images/pib.png)
+12/4/2013
 
 Why Git?
 ========
@@ -62,8 +80,16 @@ GitHub
   - Team-based access management to your projects
   - Free hosting for open-source
 
+
+
+GitHub Definitions
+==================
+
+- **Fork** -- To clone a copy of someone else's repository into your own. May not have write permissions on the original repository, do have them on your copy.
+- **Pull Request** -- To submit changes you've made in your fork of a project back to the original project. How GitHub enables contributions to open-source projects.
+
 Automated Testing
-=================
+==================================
 type: section
 
 Testing Intro
