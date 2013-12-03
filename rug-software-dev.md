@@ -36,25 +36,37 @@ Revision Control Motivation
 ### "Please send me the code you used here."
 <span class="indent">Might be some publication from years ago.</span>
 
+### "Let's work together!"
+<span class="indent">Take turns & merge? Live update? Will have problems.</span>
+
 ### "I found a bug in your code and fixed it."
 
 Revision Control
 ================
 
-- Track changes to a set of files ("commits") over time with custom granularity
-- Record messages alongside each commit to record what you did
-- Revert any file -- or the whole set -- back to any point in the project's history 
-- Maintain multiple versions ("branches") in parallel in one location ("repository")
-- Collaborate by contributing your changes ("commits") to a central server.
+![original file](images/pia.png)
+<div style="text-align: center; width: 100%;">December 1</div>
+***
+![modified file](images/pib.png)
+<div style="text-align: center; width: 100%;">December 4</div>
 
 Revision Control
 ================
 
-![original file](images/pia.png)
-12/1/2013
+- Maintain your own copy ("**working copy**") of the code. Never edit the central copy.
+- Track changes to a set of files ("**commits**") over time with custom granularity.
+- Record messages alongside each commit to record what you did.
+
 ***
-![modified file](images/pib.png)
-12/4/2013
+
+Revision Control, Cont'd.
+=========================
+
+***
+
+- Revert any file -- or the whole set -- back to any point in the project's history.
+- Maintain multiple versions ("**branches**") in parallel in one location ("**repository**").
+- Collaborate by contributing your changes ("**commits**") to a central server.
 
 Why Git?
 ========
@@ -80,13 +92,23 @@ GitHub
   - Team-based access management to your projects
   - Free hosting for open-source
 
-
-
 GitHub Definitions
 ==================
 
 - **Fork** -- To clone a copy of someone else's repository into your own. May not have write permissions on the original repository, do have them on your copy.
 - **Pull Request** -- To submit changes you've made in your fork of a project back to the original project. How GitHub enables contributions to open-source projects.
+
+Git Clients
+===========
+
+- Software comes with command line interfaces
+- GitHub offers a nice Mac/Windows client if you're on GitHub
+- RStudio supports Git (and SVN), if installed.
+  - Powerful interface if you're doing R development
+
+***
+
+![Git in RStudio](images/rstudio-git.png)
 
 Automated Testing
 ==================================
