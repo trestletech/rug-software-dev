@@ -119,14 +119,18 @@ Revision Control
 Revision Control
 ================
 
-- Maintain your own copy ("**working copy**") of the code. Never edit the central copy.
+- Maintain your own copy ("**working copy**") of the code. Never edit the central copy directly.
 - Track changes to a set of files ("**commits**") over time with custom granularity.
 - Record messages alongside each commit to record what you did.
 
 ***
 
+![revision history](images/revisions.png)
+
 Revision Control, Cont'd.
 =========================
+
+![network branches](images/branches.png)
 
 ***
 
@@ -287,6 +291,12 @@ test_that("Everything works", {
 Hands-On
 ==================================
 type: section
+
+GitHub Introduction
+==================================
+type: sub-section
+
+http://www.github.com
 
 Problem
 =======
@@ -468,7 +478,7 @@ cat(time[3], "s")
 ```
 
 ```
-0.68 s
+0.785 s
 ```
 
 
@@ -479,6 +489,7 @@ Resources
 
 - [Practical strategies for branching and merging](http://nvie.com/posts/a-successful-git-branching-model/)
 - [GitHub Help](https://help.github.com/)
+- [Passwordless (Key-Based) GitHub Logins](https://help.github.com/articles/generating-ssh-keys)
 
 
 ***
