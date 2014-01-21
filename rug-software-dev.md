@@ -68,7 +68,7 @@ white-space: nowrap;
 
 </style>
 
-Revision Control & Testing
+Revision Control & Testing in R
 ========================================================
 author: Jeff Allen
 date: January 18, 2014
@@ -478,7 +478,7 @@ cat(time[3], "s")
 ```
 
 ```
-0.785 s
+0.72 s
 ```
 
 
